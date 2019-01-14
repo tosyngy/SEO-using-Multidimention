@@ -1,0 +1,101 @@
+/* 
+    Document   : searchengine.css
+    Created on : May 29, 2016, 10:02:41 AM
+    Author     : ABIOLA
+    Description:
+        Purpose of the stylesheet follows.
+*/
+body{
+    width: 100%;
+    background-color: #fff;
+    font-style: italic;
+    overflow-x: hidden;   
+    /*height: 100%;*/
+}
+input.gsc-input{
+    padding: 10px 6px !important;
+    font-size: 14px;
+    font-weight: bold;
+}
+.gsc-control-cse{
+    padding: 4px !important;
+}
+input.gsc-search-button{
+    height: 38px !important;
+    font-size: 15px !important;
+}
+.gsc-webResult.gsc-result, .gsc-results .gsc-imageResult{
+
+}
+td.gsc-branding-text, td.gcsc-branding-text {
+    color: #fff !important;
+}
+img.gsc-branding-img, img.gsc-branding-img-noclear, img.gcsc-branding-img, img.gcsc-branding-img-noclear {
+    display: none;
+}
+.gsc-modal-background-image-visible{
+    opacity: 1;
+}
+.power{
+    padding-top: 50px;
+    padding-left: 510px;
+
+}
+.gsccent{ 
+    alignment-adjust: central;
+    padding-left: 150px;
+    padding-right: 150px;
+    position: relative;
+    top: 270;
+}
+.opmove{
+   padding: 10% 20%;
+    
+}
+.logo{
+    margin-bottom: 10px;
+    width: 100%;  
+}
+.imagelogo{
+    width: 100%;
+    margin: auto;
+}
+.gsc-results-wrapper-overlay {
+    border: none;
+    margin: auto;
+    /* border-radius: 1px; */
+    overflow: auto;
+    height: 80%;
+    -webkit-box-shadow: 0px 3px 10px #fff !important;
+    -moz-box-shadow: 0px 3px 10px #fff  !important;
+    -ms-box-shadow: 0px 3px 10px #fff  !important;
+    -o-box-shadow: 0px 3px 10px #fff  !important;
+    box-shadow: 0px 3px 10px #fff  !important;
+    border-collapse: separate;
+    background: white;
+    padding: 30px;
+    width: 70%;
+    position: relative !important;
+    left: 0% !important;
+    opacity: 0;
+    z-index: 100002;
+    visibility: hidden;
+    -ms-filter: "progid:DXImageTransform.Microsoft.Shadow(Strength=7, Direction=135, Color='#888888')";
+    filter: progid:DXImageTransform.Microsoft.Shadow(Strength=7, Direction=135, Color='#888888');
+}
+.gsc-adBlock{
+    display: none !important;
+}
+#gsc-i-id1{
+    background: rgb(255, 255, 255)  no-repeat scroll left center !important;
+}
+#gsc-i-id1:focus > .opmove{
+  background-color: red !important;
+}
+.gcsc-branding{
+    display: none !important;
+}
+
+.gssb_a div:not(.gsq_a){
+    display: none !important;
+}

@@ -1,0 +1,40 @@
+/* 
+    Document   : css
+    Created on : May 12, 2016, 12:05:01 AM
+    Author     : ABIOLA
+    Description:
+        Purpose of the stylesheet follows.
+*/
+
+body{
+    width: 99%;background-color: #ccc;font-family: helvetica;font-size: 14px;
+}
+.container{
+    width: 90%;background-color:#ffffff;margin-left:5%  
+}
+
+.left{
+    float: left;
+}
+.div1{
+    width: 28%;background-color: #f0f;padding: 1%
+}
+.div2{
+    width: 28%;background-color: #00f;color:#f0f;padding: 1%
+}
+.div3{
+  width: 28%;background-color: #ff0;color:#f0f;font-family: arail,serif; padding: 1% 
+}
+.h1{
+    width: 30%;border:solid #f0f 2px;
+}
+.div4{
+    width: 30%;border:dashed #00f 1px;color:#f0f;
+}
+.div5{
+    width: 35%;border:thick #ff0 inset;color:#f0f;font-family:impact, serif,'new times roman'
+}
+
+#set{
+
+}

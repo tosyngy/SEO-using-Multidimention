@@ -1,0 +1,65 @@
+/* 
+    Document   : Employee
+    Created on : May 16, 2016, 5:26:01 PM
+    Author     : ABIOLA
+    Description:
+        Purpose of the stylesheet follows.*/
+html{
+    height: 100%;
+}
+body{
+    width: 100%;
+    background-color: #fff;
+    font-style: italic;
+    overflow-x: hidden;   
+    height: 100%;
+}
+table{
+    width: 100%
+}
+form{
+    padding-top: 15%;
+}
+.container{
+    width: 50%;
+    background-color: #00ced1;
+    margin: auto;
+    padding: 2%;
+    position: relative;
+    top: 60%;
+}
+tr{
+    width: 50%;
+}
+
+input{
+    width: 50%;
+    font-style: italic;
+    font-size: 15px;
+    font-family: monospace;
+    height: 30px;
+}
+
+label{
+    font-size:20px;
+    font-weight: 900;
+    height: 45px;
+}
+
+.h1{
+    text-align: center;
+    color: blue;
+}
+
+.btn-submit{
+    text-align: center; 
+}
+button{
+    margin-top: 10px;
+    font-size: 16px;
+    border-radius: 5px;
+    padding: 10px;
+    border-width: 2px;
+    width: 50%;
+}
+
